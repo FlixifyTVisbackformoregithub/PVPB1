@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    --theme-mocha: #89b4fa;
+    --theme-mocha: ##2e2e2e;
     --theme-macchiato: #8aadf4;
     --theme-frappe: #8caaee;
     --theme-latte: #1e66f5;
@@ -159,13 +159,13 @@ body {
 }
 
 .sidebar {
-    transition: opacity 0.2s ease;
+    transition: opacity 1.0s ease;
     scrollbar-width: thin;
     scrollbar-color: var(--Surface0) transparent;
 }
 
 .sidebar-open {
-    opacity: 1;
+    opacity: 2;
 }
 
 body[data-dragging="true"],
