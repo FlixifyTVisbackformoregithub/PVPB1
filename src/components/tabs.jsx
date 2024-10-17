@@ -66,7 +66,7 @@ const Tabs = function () {
                     <Plus />
                 </div>
                 <span class="whitespace-nowrap overflow-hidden text-ellipsis">
-                    New Tab
+                    NEW TAB - PVPN
                 </span>
                 <span class="whitespace-nowrap overflow-hidden text-ellipsis ml-auto text-Subtext0">
                     {use(this.actionKey, (actionKey) => `${actionKey}+T`)}
